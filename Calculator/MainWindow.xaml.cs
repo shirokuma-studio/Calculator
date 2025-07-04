@@ -1,14 +1,8 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
-
-namespace calc
+namespace Calculator
 {
-    /// <summary>
-    /// An empty window that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainWindow : Window
     {
         private string currentNumber = "0";
@@ -19,7 +13,7 @@ namespace calc
         public MainWindow()
         {
             this.InitializeComponent();
-            this.Title = "Next-Gen Calculator"; // ウィンドウのタイトルを設定
+            this.Title = "Next-Gen Calculator";
         }
 
         private void NumberButton_Click(object sender, RoutedEventArgs e)
