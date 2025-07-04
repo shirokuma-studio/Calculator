@@ -94,7 +94,7 @@
         <Button Grid.Row="2" Grid.Column="0" Content="4" Click="NumberButton_Click" Style="{StaticResource CalculatorButtonStyle}"/>
         <Button Grid.Row="2" Grid.Column="1" Content="5" Click="NumberButton_Click" Style="{StaticResource CalculatorButtonStyle}"/>
         <Button Grid.Row="2" Grid.Column="2" Content="6" Click="NumberButton_Click" Style="{StaticResource CalculatorButtonStyle}"/>
-        <Button Grid.Row="2" Grid.Column="3" Content="*" Click="OperatorButton_C lick" Style="{StaticResource OperatorButtonStyle}"/>
+        <Button Grid.Row="2" Grid.Column="3" Content="*" Click="OperatorButton_Click" Style="{StaticResource OperatorButtonStyle}"/>
         <Button Grid.Row="3" Grid.Column="0" Content="1" Click="NumberButton_Click" Style="{StaticResource CalculatorButtonStyle}"/>
         <Button Grid.Row="3" Grid.Column="1" Content="2" Click="NumberButton_Click" Style="{StaticResource CalculatorButtonStyle}"/>
         <Button Grid.Row="3" Grid.Column="2" Content="3" Click="NumberButton_Click" Style="{StaticResource CalculatorButtonStyle}"/>
